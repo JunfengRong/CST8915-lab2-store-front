@@ -15,8 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     env:
-      VUE_APP_ORDER_SERVICE_URL: https://lab3-order-service-d8czc8g8g4dcaqag.westus3-01.azurewebsites.net/
-      VUE_APP_PRODUCT_SERVICE_URL: https://lab3-product-service-cbcmh5fcbbaqb7ce.westus3-01.azurewebsites.net/
+      VUE_APP_ORDER_SERVICE_URL: https://lab3-order-service-d8czc8g8g4dcaqag.westus3-01.azurewebsites.net
+      VUE_APP_PRODUCT_SERVICE_URL: https://lab3-product-service-cbcmh5fcbbaqb7ce.westus3-01.azurewebsites.net
     permissions:
        id-token: write
        contents: read
